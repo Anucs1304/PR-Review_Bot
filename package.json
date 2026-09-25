@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "module",
   "scripts": {
-    "test": "node src/test.js"
+    "test": "node src/test.js",
+    "review": "node .github/run-review.js"
   },
   "keywords": [],
   "author": "",
