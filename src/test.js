@@ -6,3 +6,9 @@ async function startReview() {
   const result = await reviewDiff(diff);
   console.log("LLM Review Output:\n", result);
 }
+
+function test() {
+    if (x = 5) {
+        console.log("bug");
+    }
+}
