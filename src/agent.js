@@ -57,6 +57,7 @@ export async function reviewDiff(diffText) {
     };
   }
 }
+
 /*Loads system prompt - review.txt
 sends the PR diff to the LLM 
 Forces structured JSON output, so GitHub Actions can parse it.
