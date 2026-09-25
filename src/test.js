@@ -8,3 +8,8 @@ async function main() {
 }
 
 main();
+if (user.name = "anu") {   // assignment instead of comparison
+    console.log("Hello");
+}
+
+const result = await doSomething()   // missing try/catch
